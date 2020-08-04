@@ -1,0 +1,280 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+.header1{
+    background-color: rgb(89, 89, 252);
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.header1 div{
+    line-height: 30px;
+    color: white;
+    text-align: center;
+}
+.header1 div a{
+    text-decoration: none;
+    color: white;
+}
+.img1
+{
+    width: 100%;
+    height: 200px;
+}
+.header2{
+    height: 80px;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#img1{
+    width: 200px;
+    height: 80px;
+}
+.header2 div span{
+    margin-left: 30px;
+}
+.img2{
+    width: 50px;
+    height: 50px;
+}
+input[type=text]
+{
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+.noidung{
+    width: 80%;
+    background-color: wheat;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+#content {
+    background-color: white;
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+}
+#content h2{
+    line-height: 50px;
+    background-color: orangered;
+    text-align: center;
+}
+#content ul li{
+    width: 100%;
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    height: 40px;
+    background-color: rgb(184, 170, 170);
+}
+#content ul li a{
+    text-decoration: none;
+    color: black;
+}
+#content ul li ul li{
+    width: 150%;
+    background-color: palegreen;
+    height: 40px;
+    border: 2px solid black;
+    margin-top: 1px;
+    position: relative;
+    top: -50px;
+    margin-left: 100%;
+    display: none;
+}
+#content ul li:hover{
+    cursor: pointer;
+    background-color: coral;
+}
+#content ul li:hover ul li{
+    display: inline-block;
+}
+
+#banner1{
+    margin: 1% 2%;
+}
+#banner2{
+    margin-left: 2%;
+    width: 915px;
+    height: 160px;
+}
+.banner{
+    width: 100%;
+    display: flex;
+    /* margin-left: 100px; */
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.banner img{
+    width: 300px;
+    height: 250px;
+}
+#content3{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(243, 163, 126);
+    display: flex;
+    margin-top: 1%;
+}
+
+#content3 img{
+    width: 60px;
+    height: 60px;
+    margin-left: 10px ;
+}
+#content3 div{
+    width: 50px;
+    height: 60%;
+    background-color: white;
+    margin: auto 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+}
+.content4{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.content4 div {
+    width: 22%;
+    margin-left: 1%;
+}
+.content4 div img{
+    margin: 5%;
+    width: 200px;
+    height: 250px;
+}
+.content4 div p{
+    font-size: 15px;
+}
+.content4 div .Daban{
+    width: 100%;
+    background-color: rgb(243, 163, 126);
+    text-align: center;
+    border-radius: 30px;
+}
+.content4 div:hover{
+    background-color: rosybrown;
+}
+.Xemthem{
+    width: 15%;
+    margin: 1% auto;
+    background-color: tomato;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+.footer{
+    width: 80%;
+    margin-left: 10%;
+    background-color: white;
+}
+.footer #footer1{
+    width: 100%;
+    height: 70px;
+    background-color: gray;
+    color: brown;
+    font-size: large;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer #footer2{
+    width: 25%;
+    font-size: 13px;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+.footer #footer2 .logo1{
+    height: 80px;
+    margin-left: 10%;
+}
+.footer #footer2 .logo2
+{
+    margin-left: 10%;
+    height: 40px;
+    width: 90px;
+}
+.footer #footer2 .MXH{
+    height: 150px;
+    width: 200px;
+}
+hr{
+    width: 1px;
+    height: 400px;
+    float: left;
+}
+.footer #footer3{
+    display: flex;
+    justify-content: space-between;
+}
+#footer3 a{
+    text-decoration: none;
+    color: black;
+}
+#footer3 a:hover{
+    color: brown;
+    cursor: pointer;
+}
+#footer3 .dichvu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 15px;
+    margin-left: 10px;
+}
+#footer3 .hotro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 15px;
+}
+#footer3 .taikhoan{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 15px;
+    margin-right: 10px;
+}
+#lienhe{
+    font-size: 15px;
+}
+
+#lienhe div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+#donvivanchuyen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#donvivanchuyen img{
+    width: 150px;
+    height: 80px;
+}
+#donvivanchuyen #ship5{
+    width: 80px;
+    height: 80px;
+}
